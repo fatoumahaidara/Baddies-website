@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Baddies — Handcrafted Handbags</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="#" class="logo">Badd<span>ies</span></a>
+    <ul>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#collections">Collections</a></li>
+      <li><a href="#craft">Our Craft</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <button class="cart-btn">&#128722; Bag (0)</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-text">
+      <span class="hero-tag">Handmade in limited batches</span>
+      <h1>Every stitch<br>tells a <em>story</em></h1>
+      <p>Each Baddies handbag is individually handcrafted using traditional techniques and full-grain leathers sourced from sustainable tanneries.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('shop').scrollIntoView({behavior:'smooth'})">Shop the collection</button>
+        <button class="btn-outline" onclick="document.getElementById('craft').scrollIntoView({behavior:'smooth'})">Our craft</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <svg viewBox="0 0 320 380" width="320" height="380" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#e8dfd4"/>
+            <stop offset="100%" stop-color="#d4c5b0"/>
+          </linearGradient>
+        </defs>
+        <ellipse cx="160" cy="340" rx="100" ry="14" fill="#c9b5a4" opacity="0.4"/>
+        <rect x="60" y="150" width="200" height="165" rx="12" fill="#c9956a"/>
+        <rect x="60" y="150" width="200" height="165" rx="12" fill="url(#bgGrad)" opacity="0.6"/>
+        <rect x="60" y="150" width="200" height="165" rx="12" fill="none" stroke="#8b5e3c" stroke-width="1.5"/>
+        <line x1="60" y1="200" x2="260" y2="200" stroke="#8b5e3c" stroke-width="1" stroke-dasharray="4,4" opacity="0.6"/>
+        <rect x="130" y="192" width="60" height="16" rx="4" fill="#8b5e3c"/>
+        <rect x="135" y="196" width="50" height="8" rx="3" fill="#a0724a"/>
+        <ellipse cx="160" cy="200" rx="5" ry="5" fill="#c9956a" stroke="#8b5e3c" stroke-width="1"/>
+        <path d="M100 150 Q100 90 160 90 Q220 90 220 150" fill="none" stroke="#8b5e3c" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="100" cy="150" r="5" fill="#8b5e3c"/>
+        <circle cx="220" cy="150" r="5" fill="#8b5e3c"/>
+        <text x="160" y="340" text-anchor="middle" font-family="Jost,sans-serif" font-size="10" letter-spacing="4" fill="#8b5e3c" opacity="0.7">BADDIES</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <div class="section-header" id="shop">
+    <h2>The <em>collection</em></h2>
+    <p>Each piece made to order — allow 2–3 weeks for your bag to be completed</p>
+  </div>
+
+  <section class="products">
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <div class="product-img" style="background:#f0e6d8;">
+        <span class="badge">Bestseller</span>
+        <svg viewBox="0 0 180 220" width="160" height="195" xmlns="http://www.w3.org/2000/svg">
+          <rect x="20" y="80" width="140" height="115" rx="8" fill="#c9956a"/>
+          <rect x="20" y="80" width="140" height="115" rx="8" fill="none" stroke="#8b5e3c" stroke-width="1.5"/>
+          <path d="M50 80 Q50 40 90 40 Q130 40 130 80" fill="none" stroke="#8b5e3c" stroke-width="2.5" stroke-linecap="round"/>
+          <rect x="72" y="128" width="36" height="12" rx="3" fill="#8b5e3c"/>
+          <line x1="20" y1="118" x2="160" y2="118" stroke="#8b5e3c" stroke-width="0.8" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h3>The Florence</h3>
+        <p>Full-grain tan leather · brass hardware</p>
+        <div class="product-footer">
+          <span class="price">£245</span>
+          <button class="add-btn">Add to bag</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <div class="product-img" style="background:#ede3d8;">
+        <svg viewBox="0 0 180 220" width="160" height="195" xmlns="http://www.w3.org/2000/svg">
+          <rect x="15" y="90" width="150" height="105" rx="5" fill="#5a3e2b"/>
+          <rect x="15" y="90" width="150" height="105" rx="5" fill="none" stroke="#3d2a1a" stroke-width="1.5"/>
+          <line x1="15" y1="122" x2="165" y2="122" stroke="#3d2a1a" stroke-width="0.8" opacity="0.5"/>
+          <rect x="30" y="90" width="15" height="32" rx="3" fill="#8b5e3c"/>
+          <rect x="135" y="90" width="15" height="32" rx="3" fill="#8b5e3c"/>
+          <rect x="30" y="78" width="15" height="14" rx="2" fill="#c9956a" stroke="#8b5e3c" stroke-width="1"/>
+          <rect x="135" y="78" width="15" height="14" rx="2" fill="#c9956a" stroke="#8b5e3c" stroke-width="1"/>
+          <path d="M45 85 Q90 65 135 85" fill="none" stroke="#c9956a" stroke-width="3" stroke-linecap="round"/>
+          <rect x="78" y="126" width="24" height="24" rx="3" fill="#c9956a" stroke="#8b5e3c" stroke-width="1"/>
+          <circle cx="90" cy="138" r="4" fill="#8b5e3c"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h3>The Siena</h3>
+        <p>Vintage dark brown · structured frame</p>
+        <div class="product-footer">
+          <span class="price">£310</span>
+          <button class="add-btn">Add to bag</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <div class="product-img" style="background:#f5f0eb;">
+        <span class="badge">New</span>
+        <svg viewBox="0 0 180 220" width="160" height="195" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="90" cy="155" rx="70" ry="55" fill="#d4b896"/>
+          <ellipse cx="90" cy="155" rx="70" ry="55" fill="none" stroke="#8b5e3c" stroke-width="1.5"/>
+          <ellipse cx="90" cy="106" rx="50" ry="12" fill="#c9a880" stroke="#8b5e3c" stroke-width="1.2"/>
+          <rect x="72" y="94" width="36" height="14" rx="7" fill="#8b5e3c"/>
+          <circle cx="90" cy="101" r="3" fill="#c9956a"/>
+          <line x1="50" y1="155" x2="130" y2="155" stroke="#8b5e3c" stroke-width="0.8" opacity="0.5"/>
+          <ellipse cx="90" cy="175" rx="45" ry="18" fill="none" stroke="#8b5e3c" stroke-width="0.6" opacity="0.5"/>
+        </svg>
+      </div>
+      <div class="product-info">
+        <h3>The Pisa</h3>
+        <p>Soft beige pebbled leather · round silhouette</p>
+        <div class="product-footer">
+          <span class="price">£195</span>
+          <button class="add-btn">Add to bag</button>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- CRAFT -->
+  <section class="craft-strip" id="craft">
+    <div>
+      <h2>Made by hand,<br>made to <em>last</em></h2>
+      <p>At Baddies, we believe the best accessories are ones you'll still be carrying in 20 years. Every bag is made with the same care as a piece of fine jewellery.</p>
+    </div>
+    <div class="craft-features">
+      <div class="craft-feat">
+        <span class="feat-num">01</span>
+        <div class="feat-text">
+          <h4>Sustainable sourcing</h4>
+          <p>Full-grain leather from tanneries certified for responsible practices.</p>
+        </div>
+      </div>
+      <div class="craft-feat">
+        <span class="feat-num">02</span>
+        <div class="feat-text">
+          <h4>Hand-stitched edges</h4>
+          <p>Saddle stitching by a single artisan — stronger and more beautiful than machine seams.</p>
+        </div>
+      </div>
+      <div class="craft-feat">
+        <span class="feat-num">03</span>
+        <div class="feat-text">
+          <h4>Lifetime repairs</h4>
+          <p>Every Baddies bag can be returned for complimentary restoration, no matter its age.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL -->
+  <section class="testimonial">
+    <blockquote>"I've had mine for three years and it only looks better with time. It's the most-complimented thing I own."</blockquote>
+    <cite>— Amélie R., Paris</cite>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="#" class="logo">Badd<span>ies</span></a>
+    <p style="color:#7a6558;">© 2026 Baddies · Handcrafted with care</p>
+    <p>hello@baddies.com</p>
+  </footer>
+
+</body>
+</html>
