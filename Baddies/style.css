@@ -52,11 +52,7 @@ nav ul a:hover { color: #8b5e3c; }
   transition: all 0.2s;
 }
 .cart-btn:hover { background: #8b5e3c; color: #faf8f4; }
-.product-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+
 /* ── HERO ── */
 .hero {
   display: grid;
@@ -154,14 +150,11 @@ nav ul a:hover { color: #8b5e3c; }
   grid-template-columns: repeat(3, 1fr);
   gap: 1.8rem;
 }
-.product-card {
-  background: #fff;
-  border: 1px solid #e5ddd3;
-  border-radius: 3px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: transform 0.25s, box-shadow 0.25s;
-}
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 .product-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 32px rgba(42, 31, 20, 0.1);
