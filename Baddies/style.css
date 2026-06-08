@@ -312,7 +312,24 @@ footer {
 }
 footer .logo { color: #f3ede4; }
 footer p { font-size: 0.78rem; letter-spacing: 0.05em; }
-
+.contact-info {
+    margin-top: 15px;
+  }
+  
+  .contact-info p {
+    margin: 8px 0;
+    color: #7a6558;
+  }
+  
+  .contact-info a {
+    color: #7a6558;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-info a:hover {
+    color: #000;
+  }
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   nav ul { display: none; }
