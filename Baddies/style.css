@@ -52,7 +52,11 @@ nav ul a:hover { color: #8b5e3c; }
   transition: all 0.2s;
 }
 .cart-btn:hover { background: #8b5e3c; color: #faf8f4; }
-
+.product-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 /* ── HERO ── */
 .hero {
   display: grid;
